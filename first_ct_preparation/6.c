@@ -1,0 +1,12 @@
+// Print the first 10 natural numbers usign loops.
+
+
+
+#include <stdio.h>
+
+int main() {
+    
+    for(int i=0 ; i<10 ; i++){
+        printf("%d\n",i);
+            }
+}
