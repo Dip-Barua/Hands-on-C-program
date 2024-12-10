@@ -76,3 +76,54 @@ printf("Total Number of notes: \n");
 
 
 }
+
+
+
+
+
+
+
+
+
+
+// using Loop
+
+
+// #include <stdio.h>
+
+// int main() {
+//     int amount;
+//     // Denominations of notes
+//     int denominations[] = {1000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+//     int numDenominations = sizeof(denominations) / sizeof(denominations[0]);
+    
+//     // Array to store the count of notes for each denomination
+//     int notes[numDenominations];
+    
+//     // Initialize all note counters to 0
+//     for (int i = 0; i < numDenominations; i++) {
+//         notes[i] = 0;
+//     }
+
+//     // Prompt user to enter the amount
+//     printf("Enter the amount: ");
+//     scanf("%d", &amount);
+
+//     // Loop over each denomination and calculate the number of notes
+//     for (int i = 0; i < numDenominations; i++) {
+//         if (amount >= denominations[i]) {
+//             notes[i] = amount / denominations[i];  // Calculate number of notes
+//             amount = amount % denominations[i];    // Update the remaining amount
+//         }
+//     }
+
+//     // Output the number of notes for each denomination
+//     printf("Total number of notes:\n");
+//     for (int i = 0; i < numDenominations; i++) {
+//         if (notes[i] > 0) {
+//             printf("%d Notes: %d\n", denominations[i], notes[i]);
+//         }
+//     }
+
+//     return 0;
+// }
